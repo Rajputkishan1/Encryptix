@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WheelDeals</title>
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo_wd.png" alt="">
+            </div>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100011119035447&mibextid=LQQJ4d">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search Here">
+                <button class="btn" id="searchButton">Search</button>
+            </div>
+            <ul class="right-aligned-list" style="padding-left:680px ;">
+                <li id="login-item"><a href="login.html">Login!</a></li>
+                <li class="hidden" id="username-item">
+                    <a href="#" id="username"></a>
+                    <a href="#" id="logout">(Logout)</a>
+                </li>
+                <li><a href="about.html">Help?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider">
+                <img src="https://source.unsplash.com/1600x500/?vintage cars" alt="">
+            </div>
+
+            <div class="card">
+                <h2 style="margin: 26px;">Join the road revolution!</h2>
+                <div class="scroll-container" id="carCards">
+                    <div class="card-item" data-name="Harrier">
+                        <img src="HarrierF.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Harrier</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item" data-name="Ertiga">
+                        <img src="ErtigaF.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Ertiga</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item" data-name="Mercedes">
+                        <img src="1001F.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Mercedes</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                  
+                    <div class="card-item" data-name="Scorpio">
+                        <img src="8166F.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Scorpio</p>
+                            <!-- <p class="text-center my-1">S11</p> -->
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+
+                    <div class="card-item" data-name="Cretta">
+                        <img src="CrettaF.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Cretta</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                  
+                    <div class="card-item" data-name="Scorpio">
+                        <img src="ScorpioF.jpeg" alt="" width="200px" height="250px">
+                    <div class="lines">
+                            <p class="text-center my-1">Scorpio</p>
+                            <!-- <p class="text-center my-1">S9</p> -->
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                   
+                    <div class="card-item" data-name="BMW Car">
+                        <img src="BMW.jpg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">BMW Cars</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                   
+                    <div class="card-item" data-name="Dzire">
+                        <img src="Dzire.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Dzire</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                  
+                    <div class="card-item" data-name="Brezza">
+                        <img src="BrezzaRed.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Brezza</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                  
+                    <div class="card-item" data-name="Ertiga">
+                        <img src="ErtigaN.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Ertiga</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                  
+                    <div class="card-item" data-name="Scorpio">
+                        <img src="ScorpioModified.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Scorpio</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 style="margin: 26px;">Newly Driven Bike!</h2>
+                <div class="scroll-container" id="bikeCards">
+                    <div class="card-item" data-name="Bullet">
+                        <img src="BulletF.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Bullet</p>
+                            <p class="text-center my-2">Min 30% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item" data-name="Apache">
+                        <img src="AppacheF.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Apache</p>
+                            <p class="text-center my-2">Min 35% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item" data-name="BMW Bike">
+                        <img src="BMWbike.webp" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">BMW Bike</p>
+                            <p class="text-center my-2">Min 40% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <!-- Other bike items -->
+                    <div class="card-item" data-name="xtreme">
+                        <img src="xtreme.webp" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Xtreme</p>
+                            <p class="text-center my-2">Min 25% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+
+                    <div class="card-item" data-name="pulsar">
+                        <img src="PulsarS.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Bajaj</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item" data-name="Bullet">
+                        <img src="BulletBlack.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Bullet</p>
+                            <p class="text-center my-2">Min 20% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item" data-name="Harley Davidson">
+                        <img src="harley.jpg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Harley X440</p>
+                            <p class="text-center my-2">Min 25% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item" data-name="Bullet">
+                        <img src="BulletDesert.jpeg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Bullet</p>
+                            <p class="text-center my-2">Min 30% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 style="margin: 26px;">Heavy Engine Vehicles!</h2>
+                <div class="scroll-container" id="heavyVehiclesCards">
+                    <div class="card-item" data-name="Arjun-605">
+                        <img src="ARJUN.jpg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">Arjun-605</p>
+                            <p class="text-center my-2">Min 30% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item" data-name="JCB">
+                        <img src="jcb.jpg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">JCB</p>
+                            <p class="text-center my-2">Min 35% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item" data-name="John Deere Harvester">
+                        <img src="johndeere.jpg" alt="" width="200px" height="250px">
+                        <div class="lines">
+                            <p class="text-center my-1">John Deere Harvester</p>
+                            <p class="text-center my-2">Min 30% off</p>
+                            <p class="text-center my-3">Grab Now!</p>
+                        </div>
+                    </div>
+                    <!-- Other heavy vehicle items -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; MyCart.com </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

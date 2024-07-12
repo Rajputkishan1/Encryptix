@@ -1,0 +1,129 @@
+body, table, td, a {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+table, td {
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+}
+img {
+    border: 0;
+    height: auto;
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse !important;
+    /* background-image: url(BG.jpg); */
+
+}
+body {
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    background-color: #f6f6f6;
+}
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 32px !important;
+        line-height: 32px !important;
+    }
+    .email-container {
+        width: 100% !important;
+    }
+    .hero-image {
+        width: 100% !important;
+    }
+    .cta-button {
+        font-size: 18px !important;
+    }
+}
+
+div[style*="margin: 16px 0;"] {
+    margin: 0 !important;
+}
+
+.background-wrapper {
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+.email-container {
+    max-width: 600px;
+    /* background: url('bg.jpg') no-repeat center center/cover; */
+    background-color: #433c3c24;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.email-header {
+    background-color: black;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.hero {
+    background-color: #433c3c00;
+}
+
+.hero-image {
+    width: 25%;
+    max-width: 600px;
+    height: auto;
+}
+
+.email-body {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.email-footer {
+    background-color:black;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.unsubscribe {
+    color: #ffffff;
+    text-decoration: none;
+}
